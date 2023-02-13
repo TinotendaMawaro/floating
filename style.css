@@ -1,0 +1,67 @@
+
+body {
+    background-color: #5634a5;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .plus-icon {
+    font-size: 20px;
+    background-color: #4913c5;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .sub-buttons {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: -6px;
+    z-index: 10;
+   /*background-color: #760ed8; */   
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  
+  .sub-button {
+    width: 40px;
+    height: 40px;
+    background-color: #6a32ee;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.30s ease-in-out;
+  }
+  
+  .sub-button:hover {
+    transform: scale(1.2);
+    background-color: #4827a3;
+    color: #fff;
+  }
+  
+  .fa-user-plus:before {
+    content: "\f234";
+  }
+  
+  .fa-file-alt:before {
+    content: "\f15c";
+  }
+  
+  .fa-cog:before {
+    content: "\f013";
+  }
+  
